@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "mafont";
+    src: url('OpenSans-Regular.ttf');
+}
+
+html{
+    font-family: "mafont";
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
+header{
+    background-image: url("texture-header.jpg");
+    height: 150px;
+}
+
+@font-face{
+    font-family: "mafontt";
+    src: url('nasalization-rg.ttf');
+}
+
+h1{
+    font-family: "mafontt";
+    font-size: 40px;
+    color: #27d1ff;
+    vertical-align: middle;
+    text-align: center;
+}
+
+nav{
+     background-color: #2e2f30;
+     padding-right: 50px;
+     margin: 0px;
+     text-align: right;
+     vertical-align: middle;
+}
+
+a:hover {
+    color:#17c1ff;
+}
+
+a{
+    color: white;
+}
+
+a:active{
+    color: #17c1ff;
+    font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: #e6e6e6;
+    text-align: center;
+    background-color: lightgray;
+}
+
+form{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+    border: #e6e6e6 4px solid ;
+    background-color: white;
+}
+textarea{
+    width: 250px;
+    border: #e6e6e6 2px solid;
+    height: 90px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border: #e6e6e6 2px solid;
+}
+
+button:hover{
+    background-color:#17c1ff;
+}
+button:visited{
+    text-shadow: 2px 2px 2px black;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
