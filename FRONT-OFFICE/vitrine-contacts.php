@@ -19,7 +19,7 @@
 
     <h2>Contacts</h2>
 
-    <form action="/ma-page-de-traitement" method="post">
+    <form action="" method="post">
         <div>
             <label for="name">Votre nom :</label>
             <input type="text" id="name" name="user_name">

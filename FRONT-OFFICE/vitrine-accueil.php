@@ -21,8 +21,8 @@
     <p> Dans le cadre du Summer Code Camp 2020 nous avons du réaliser notre propre blog à l'aide des compétences acquises lors des trois premières semaines de formations sur l'html le php le sql et le css. J'ai choisi de développer ce blog sur le thème des voyages car je suis une passionnée des voyages.</p>
 
     <h3>Voici les 5 derniers articles rédigés </h3>
-
-    <?php $pdo = new PDO("mysql:host=localhost;dbname=MyDevBlog","root","root");
+  
+  <?php $pdo = new PDO("mysql:host=localhost;dbname=MyDevBlog","root","root");
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
